@@ -1,3 +1,7 @@
+use emulator::gba::gba::Gba;
+
 fn main() {
-    println!("Hello, world!");
+    let emulator = Gba::new();
+    emulator.test();
+    emulator.framebuffer.test();
 }
