@@ -1,6 +1,8 @@
 use emulator::gba::gba::Gba;
 use emulator::common::frontend::window::App;
 use winit::event_loop::EventLoop;
+use log;
+use env_logger;
 
 fn main() {
     let emulator = Gba::new();
