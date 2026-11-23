@@ -1,4 +1,4 @@
-use crate::common::framebuffer::Framebuffer;
+use crate::common::console::framebuffer::Framebuffer;
 
 pub struct Gba{
     pub framebuffer: Framebuffer,

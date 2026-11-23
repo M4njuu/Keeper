@@ -17,6 +17,8 @@ impl Framebuffer{
     }
 
     pub fn test(&self){
+        // テスト用に赤いpixelを解像度のドット数ぶん作る
+
         println!("Hi! Im framebuffer!!");
     }
 }

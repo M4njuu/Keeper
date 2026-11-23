@@ -1,1 +1,2 @@
-pub mod framebuffer;
+pub mod console;
+pub mod frontend;
