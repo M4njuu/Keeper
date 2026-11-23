@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-wgpu = "27"
+wgpu = "30"
 winit = "0.30"
 pollster = "0.4"
 log = "0.4.35"
